@@ -20,7 +20,7 @@ try:
 
     transport.open()
 
-    person = client.getPersonByUsername("张三")
+    person = client.getPersonByUsername('zhangsan')
 
     print person.username
     print person.age
@@ -29,7 +29,7 @@ try:
     print '-------------'
 
     newPerson = ttypes.Person()
-    newPerson.username = '李四'
+    newPerson.username = 'lisi'
     newPerson.age = 30
     newPerson.married = True
 
